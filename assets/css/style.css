@@ -1,0 +1,39 @@
+/* apply styles to elements in <body> */
+body {
+  font-family: 'indie flower', cursive, Helvetica, Arial, sans-serif;
+  color: #7B5A56;
+}
+
+/* apply styles to <header> */
+header {
+  padding: 20px 35px;
+  background-color: #BFBEB8;
+}
+
+/* apply styles to <h1> elements inside the <header> */
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #7B5A56;
+  margin: 0;
+}
+
+/* apply styles to <a> elements inside the <header> */
+header a {
+  color: #7B5A56;
+  text-decoration: none;
+}
+
+header li {
+  list-style: none;
+}
+
+/* apply styles to <img> elements inside the <header> */
+header img {
+  height: 10%;
+  width:10%;
+  max-height: 100px;
+  max-width: 100px;
+  border-radius: 50%;
+}
+
