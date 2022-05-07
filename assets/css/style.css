@@ -62,27 +62,19 @@ header img {
   border-radius: 2%;
   border-width: 3px;
   position: relative;
+  max-width: 600px;
+  max-height: 600px;
 }
 
 article div img {
-  height: 30%;
-  width:30%;
+  height: 29.3%;
+  width:29.3%;
   border:solid;
   border-color: #3A3E3A;
   border-radius: 2%;
   border-width: 3px;
+  max-width: 300px;
+  max-height: 300px;
 }
 
-.run-buddy-name {
-  border: 3px solid #564F4B;
-  font-size: 20px;
-  font-weight: bold;
-  border-radius: 5%;
-  background-color: #ACA2A5;
-  padding: 1%;
-  color: #564F4B;
-  position: absolute;
-  bottom: 13px;
-  right: 100px;
-  
-}
+
