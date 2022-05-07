@@ -14,7 +14,12 @@ body {
 header {
   padding: 20px 35px;
   background-color: #ACA2A5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+
 
 /* apply styles to <h1> elements inside the <header> */
 header h1 {
@@ -33,16 +38,33 @@ header a {
 /* apply styles to <li> elements inside the <header> */
 header li {
   list-style: none;
+  padding-right: 20px;
+  font-size: 150%;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
 }
 
 /* apply styles to <img> elements inside the <header> */
 header img {
-  height: 10%;
-  width:10%;
+  height: 70px;
+  width:70px;
   max-height: 100px;
   max-width: 100px;
-  border-radius: 50%;
+  border-radius: 35px;
 }
+
+.name-avatar {
+  display:flex;
+  align-items: center;
+}
+
+.avatar {
+  padding-left: 10px;
+}
+
 
 /* hero style */
 .hero {
@@ -52,7 +74,16 @@ header img {
   background-position: center;
 }
 
+/*about me section */
+.about-me {
+  margin:20px 50px
+}
+
 /* my work section */
+
+.my-work {
+  margin:20px 50px
+}
 
 .website1-image {
   height: 60%;
@@ -85,4 +116,11 @@ article div img {
   .contact-me a {
     text-decoration: none;
     color:#3A3E3A
+  }
+
+  .contact-me-elements {
+    display: flex;
+    margin-bottom:20px;
+    justify-content: space-around;
+    font-size: 150%;
   }
