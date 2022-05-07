@@ -1,29 +1,36 @@
 /* apply styles to elements in <body> */
 body {
   font-family: 'indie flower', cursive, Helvetica, Arial, sans-serif;
-  color: #7B5A56;
+  color: #3A3E3A;
+  background-color: #eeeeee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /* apply styles to <header> */
 header {
   padding: 20px 35px;
-  background-color: #BFBEB8;
+  background-color: #ACA2A5;
 }
 
 /* apply styles to <h1> elements inside the <header> */
 header h1 {
   font-weight: bold;
   font-size: 36px;
-  color: #7B5A56;
+  color: #3A3E3A;
   margin: 0;
 }
 
 /* apply styles to <a> elements inside the <header> */
 header a {
-  color: #7B5A56;
+  color: #3A3E3A;
   text-decoration: none;
 }
 
+/* apply styles to <li> elements inside the <header> */
 header li {
   list-style: none;
 }
@@ -37,3 +44,45 @@ header img {
   border-radius: 50%;
 }
 
+/* hero style */
+.hero {
+  background-image: url("../images/hero.jpg");
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* my work section */
+
+.website1-image {
+  height: 60%;
+  width:60%;
+  border:solid;
+  border-color: #3A3E3A;
+  border-radius: 2%;
+  border-width: 3px;
+  position: relative;
+}
+
+article div img {
+  height: 30%;
+  width:30%;
+  border:solid;
+  border-color: #3A3E3A;
+  border-radius: 2%;
+  border-width: 3px;
+}
+
+.run-buddy-name {
+  border: 3px solid #564F4B;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5%;
+  background-color: #ACA2A5;
+  padding: 1%;
+  color: #564F4B;
+  position: absolute;
+  bottom: 13px;
+  right: 100px;
+  
+}
