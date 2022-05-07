@@ -61,7 +61,6 @@ header img {
   border-color: #3A3E3A;
   border-radius: 2%;
   border-width: 3px;
-  position: relative;
   max-width: 600px;
   max-height: 600px;
 }
@@ -77,4 +76,13 @@ article div img {
   max-height: 300px;
 }
 
+.website-title {
+  font-size: 130%;
+  font-weight: bold;
+}
 
+/* contact-me section */
+  .contact-me a {
+    text-decoration: none;
+    color:#3A3E3A
+  }
