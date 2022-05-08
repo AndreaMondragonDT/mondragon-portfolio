@@ -17,6 +17,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
 }
 
 
@@ -27,6 +28,7 @@ header h1 {
   font-size: 36px;
   color: #3A3E3A;
   margin: 0;
+  overflow: hidden;
 }
 
 /* apply styles to <a> elements inside the <header> */
@@ -53,16 +55,19 @@ header img {
   width:70px;
   max-height: 100px;
   max-width: 100px;
-  border-radius: 35px;
+  overflow: hidden;
 }
 
 .name-avatar {
   display:flex;
   align-items: center;
+  overflow: hidden;
 }
 
 .avatar {
   padding-left: 10px;
+  overflow: hidden;
+  border-radius: 35px;
 }
 
 
@@ -87,24 +92,32 @@ header img {
 /* my work section */
 .my-work {
   margin:20px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .secondary-websites {
   display:flex;
   flex-wrap: wrap;
-  width: 600px;
+  width: 536px;
 }
 
 .container {
   position: relative;
+  height: 250px;
+  width:527px;
+  margin-right: 10px;
 }
 
 .container2 {
   position: relative;
+  margin-top: 15px;
 }
 
 .container3 {
   position: relative;
+  margin-top: 15px;
 }
 
 .container4 {
@@ -140,8 +153,8 @@ article div img {
   font-size: 110%;
   font-weight: bold;
   background-color: #ACA2A5;
-  top:75%;
-  left:48%;
+  top:77%;
+  left:80%;
   padding:5px;
   border:solid;
   border-radius: 5px;
@@ -182,7 +195,82 @@ article div img {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
- body {
-  background-color: red;
- }
+  header {
+    flex-wrap: wrap;
+    justify-content: center
+  }
+  
+  header h1 {
+    font-size: 20px;
+  }
+
+header li {
+  font-size: 15px;
+}
+
+.secondary-websites {
+  width:280px
+}
+
+.website1-image {
+  height: 150px;
+  width:300px;
+  border:solid;
+  border-color: #3A3E3A;
+  border-radius: 2%;
+  border-width: 3px;
+  max-width: 600px;
+  max-height: 600px;
+}
+
+.container {
+  position: relative;
+  height: 150px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.container2 {
+  margin-top: 25px;
+  margin-bottom:0
+}
+
+.container3 {
+  margin-top: 10px;
+  margin-bottom:0
+}
+
+.container4 {
+  margin-top: 10px;
+  margin-bottom:0
+}
+
+.container5 {
+  margin-top: 10px;
+  margin-bottom:0
+}
+
+.website-title-main {
+  font-size: 110%;
+  font-weight: bold;
+  background-color: #ACA2A5;
+  top:66%;
+  left:65%;
+  padding:5px;
+  border:solid;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.my-work {
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  .contact-me-elements {
+    font-size: 90%;
+  }
+
 }
