@@ -39,7 +39,7 @@ header a {
 header li {
   list-style: none;
   padding-right: 20px;
-  font-size: 150%;
+  font-size: 25px;
 }
 
 header ul {
@@ -79,14 +79,45 @@ header img {
   margin:20px 50px
 }
 
+.about-me p {
+  font-size: 20px;
+}
+
+
 /* my work section */
 .my-work {
-  margin:20px 50px
+  margin:20px 50px;
+}
+
+.secondary-websites {
+  display:flex;
+  flex-wrap: wrap;
+  width: 600px;
+}
+
+.container {
+  position: relative;
+}
+
+.container2 {
+  position: relative;
+}
+
+.container3 {
+  position: relative;
+}
+
+.container4 {
+  position: relative;
+}
+
+.container5 {
+  position: relative;
 }
 
 .website1-image {
-  height: 60%;
-  width:60%;
+  height: 250px;
+  width:528px;
   border:solid;
   border-color: #3A3E3A;
   border-radius: 2%;
@@ -96,19 +127,37 @@ header img {
 }
 
 article div img {
-  height: 29.3%;
-  width:29.3%;
+  height: 150px;
+  width:260px;
   border:solid;
   border-color: #3A3E3A;
   border-radius: 2%;
   border-width: 3px;
-  max-width: 300px;
-  max-height: 300px;
+  margin-right: 2px;
+}
+
+.website-title-main {
+  font-size: 110%;
+  font-weight: bold;
+  background-color: #ACA2A5;
+  top:75%;
+  left:48%;
+  padding:5px;
+  border:solid;
+  border-radius: 5px;
+  position: absolute;
 }
 
 .website-title {
+  position:absolute;
   font-size: 110%;
   font-weight: bold;
+  background-color: #ACA2A5;
+  top:65%;
+  left:60%;
+  padding:5px;
+  border:solid;
+  border-radius: 5px;
 }
 
 
@@ -129,3 +178,11 @@ article div img {
     justify-content: space-around;
     font-size: 150%;
   }
+
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+ body {
+  background-color: red;
+ }
+}
