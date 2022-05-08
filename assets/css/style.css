@@ -103,6 +103,7 @@ header img {
   width: 536px;
 }
 
+
 .container {
   position: relative;
   height: 250px;
@@ -110,9 +111,17 @@ header img {
   margin-right: 10px;
 }
 
+.container:hover {
+  opacity: 0.5;
+}
+
 .container2 {
   position: relative;
   margin-top: 15px;
+}
+
+.container2:hover {
+  opacity: 0.5;
 }
 
 .container3 {
@@ -120,12 +129,24 @@ header img {
   margin-top: 15px;
 }
 
+.container3:hover {
+  opacity: 0.5;
+}
+
 .container4 {
   position: relative;
 }
 
+.container4:hover {
+  opacity: 0.5;
+}
+
 .container5 {
   position: relative;
+}
+
+.container5:hover {
+  opacity: 0.5;
 }
 
 .website1-image {
